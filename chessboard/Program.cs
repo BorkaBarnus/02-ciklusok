@@ -18,15 +18,23 @@ Console.WriteLine();
 string palya = "";
 int meret = 64;
 
-for (int i = 0; i < 64; i++)
+for (int i = 1; i != 64; i++)
 {
     if (i % 2 == 0)
     {
-        palya += "■";
+        palya += "-";
     }
     else
     {
-        palya += "-";
+        palya += "■";
+    }
+    if (i == 0)
+    {
+        continue;
+    }
+    if (i % 9 == 0)
+    {
+        palya += "\n";
     }
 }
 Console.WriteLine(palya);
