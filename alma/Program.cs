@@ -19,7 +19,20 @@ while(szamlalo < platform)
  * //végrehajtandó utasítás}
  */
 
-for (int i = 0; i < 100; i++)
+for (int i = 0; i < 1000; i+= 10)
 {
     Console.Write(i + " ");
 }
+
+for (int i = 0; i < 1024; i *= 2)
+{
+    
+}
+
+/*
+ * for i in range(0, 100, 1):
+ *  print(i)
+ * 
+ * #ciklus vége
+ * print(i)
+ */
